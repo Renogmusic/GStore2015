@@ -1,0 +1,73 @@
+﻿@model CatalogAdminViewModel
+@{
+	int categoryCount = Model.ProductCategories.Count;
+	int productCount = Model.Products.Count;
+	List<ProductCategory> top10Categories = Model.ProductCategories.Take(10).ToList();
+	List<Product> top10Products = Model.Products.Take(10).ToList();
+
+}
+<div class="row">
+	@if (Html.UserHasPermission(GStoreAction.Categories_Manager))
+	{
+		<div class="col-md-6">
+			@Html.ActionLink("Categories: showing " + top10Categories.Count.ToString("N0") + " of " + categoryCount.ToString("N0"), "Manager", "CategoryAdmin", null, new { @class = "btn btn-info" })
+			<br/>
+			@{
+				if (top10Categories == null || top10Categories.Count == 0)
+				{
+					@:There are no product categories for this store front.
+					@Html.ActionLink("Create a Product Category", "Create", "CategoryAdmin", null, null)
+				}
+				foreach (ProductCategory category in top10Categories)
+				{
+					@Html.DisplayFor(model => category)
+				}
+			}
+			@if (categoryCount > 10)
+			{
+				@Html.ActionLink("View All " + categoryCount.ToString("N0") + " Categories", "Manager", "CategoryAdmin", null, null)
+			}
+		</div>
+	}
+	@if (Html.UserHasPermission(GStoreAction.Products_Manager))
+	{
+		<div class="col-md-6">
+			@Html.ActionLink("Products: showing " + top10Products.Count.ToString("N0") + " of " + productCount.ToString("N0"), "Manager", "ProductAdmin", null, new { @class = "btn btn-info" })
+			<br/>
+			@{
+				if (top10Products == null || top10Products.Count == 0)
+				{
+					@:There are no products for this store front.
+					@Html.ActionLink("Create a Product", "Create", "ProductAdmin", null, null)
+				}
+				foreach (Product product in top10Products)
+				{
+					@Html.DisplayFor(model => product)
+				}
+			}
+			@if (productCount > 10)
+			{
+				@Html.ActionLink("View All " + productCount.ToString("N0") + " products", "Manager", "ProductAdmin", null, null)
+			}
+
+		</div>
+	}
+</div>
+
+@*@{
+	var t = TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time");
+	if (t == null)
+	{
+		@:null<br/>
+	}
+	else
+	{
+		@: @(t.DisplayName)<br />
+	}
+	<hr/>
+	var x = TimeZoneInfo.GetSystemTimeZones();
+	foreach (var y in x)
+	{
+		@:@(y.Id) - @(y.DisplayName)<br/>
+	}
+}*@

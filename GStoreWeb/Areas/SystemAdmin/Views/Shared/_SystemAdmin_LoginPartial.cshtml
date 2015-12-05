@@ -1,0 +1,52 @@
+﻿@{
+	using (Html.BeginForm("LogOff", "Account", new { Area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+	{
+		@Html.AntiForgeryToken()
+
+	<ul class="nav navbar-nav navbar-right">
+		<li class="AdminMenuItemLevel2">
+			@{
+		IEnumerable<SelectListItem> clientList = Html.ClientFilterList();
+		if (clientList == null)
+		{
+			@:null client list
+				}
+		else
+		{
+			@:Client:
+				<select onchange="updateclient(this.options[this.selectedIndex].value);" class="form-control" style="height: 25px; padding: 0 0 0 0; line-height: none;">
+					@{
+			foreach (SelectListItem item in clientList)
+			{
+				@:
+						<option @(item.Selected ? " SELECTED" : string.Empty) value="@(item.Value)">@(item.Text)</option>
+					}
+					}
+				</select>
+
+		}
+			}
+		</li>
+		<li class="AdminMenuItemLevel2">
+			<a href="~/" title="Back to Site" accesskey="b">Back to Site</a>
+		</li>
+
+		@{ Html.RenderPartial("_LoginAdminPartial", new AdminMenuViewModel(Html.CurrentStoreFront(false), Html.CurrentUserProfile(false), ViewContext.RouteData.Area())); }
+		<li><a href="javascript:document.getElementById('logoutForm').submit()" accesskey="l" title="Log off the system">Log off&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	</ul>
+	}
+			}
+<script>
+	function updateclient(clientId)
+	{
+		var baseUrl = '@(Url.Action("Index", new { ClientId = 99999 }).ToJavaScriptString())';
+		if (clientId.length == 0)
+		{
+			window.location.href = (baseUrl).replace("99999", "0");
+		}
+		else
+		{
+			window.location.href = baseUrl.replace("99999", clientId);
+		}
+	}
+</script>

@@ -1,0 +1,100 @@
+﻿@model CatalogAdminViewModel
+@{
+	StoreFront storeFront = Model.StoreFront;
+}
+<ul class="nav navbar-nav">
+	<!-- Dynamic Catalog Admin Menu -->
+	@if (Html.UserHasPermission(GStoreAction.Categories_CatalogAdminMenuItem) && Html.UserHasPermission(GStoreAction.Categories_Manager))
+	{
+		<!-- Categories Menu Item -->
+		string categoryText = "Category Manager (" + storeFront.ProductCategories.AsQueryable().WhereIsActive().Count().ToString("N0") + " / " + storeFront.ProductCategories.Count.ToString("N0") + ")";
+		<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+			@Html.ActionLink(categoryText, "Manager", "CategoryAdmin", null, new { accesskey = "c" })
+		</li>
+	}
+
+	@if (Html.UserHasPermission(GStoreAction.Categories_CatalogAdminMenuItem) && Html.UserHasPermission(GStoreAction.Categories_Manager))
+	{
+		<!-- Products Menu Item -->
+		string productText = "Product Manager (" + storeFront.Products.AsQueryable().WhereIsActive().Count().ToString("N0") + " / " + storeFront.Products.Count.ToString("N0") + ")";
+		<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+			@Html.ActionLink(productText, "Manager", "ProductAdmin", null, new { accesskey = "p" })
+		</li>
+	}
+
+	@if (Html.UserHasPermission(GStoreAction.Bundles_CatalogAdminMenuItem) && Html.UserHasPermission(GStoreAction.Bundles_Manager))
+	{
+		string bundleText = "Bundle Manager (" + storeFront.ProductBundles.AsQueryable().WhereIsActive().Count().ToString("N0") + " / " + storeFront.ProductBundles.Count.ToString("N0") + ")";
+		<!-- Bundles Menu Item -->
+		<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+			@Html.ActionLink(bundleText, "Manager", "BundleAdmin", null, new { accesskey = "b" })
+		</li>
+	}
+
+	<!-- GStore Menu Item -->
+	<li class="dropdown AdminMenuItem AdminMenuItemLevel1">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" accesskey="h" title="Get Help!">Help<span class="caret"></span></a>
+		<ul class="dropdown-menu AdminMenuChildContainer AdminMenuChildContainerLevel1" role="menu">
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+				<a href="mailto:renogmusic@yahoo.com">Support: Email renogmusic@yahoo.com</a>
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+				@Html.ActionLink("GStore System Information", "SystemInfo", "GStore")
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2">
+				@Html.ActionLink("About GStore", "About", "GStore")
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				User Local Time
+				<br />
+				@DateTime.UtcNow.ToUserDateTimeString(Html)
+				<br />
+				@Html.UserTimeZone().DisplayName
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				Store Local Time
+				<br />
+				@DateTime.UtcNow.ToStoreDateTimeString(Html)
+				<br/>
+				@Html.StoreFrontTimeZone().DisplayName
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				Client Local Time
+				<br />
+				@DateTime.UtcNow.ToClientDateTimeString(Html)
+				<br />
+				@Html.ClientTimeZone().DisplayName
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				GStore System Default Time
+				<br />
+				@DateTime.UtcNow.ToGStoreSystemDefaultDateTimeString(Html)
+				<br />
+				@Html.GStoreSystemDefaultTimeZone().DisplayName
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				Server Local Time
+				<br />
+				@DateTime.UtcNow.ToLocalTime().ToString() @(Html.ServerTimeZone().ToShortName())
+				<br/>
+				@Html.ServerTimeZone().DisplayName
+			</li>
+			<li class="divider"></li>
+			<li class="AdminMenuItemLevel2 AdminMenuItemLevel2" style="padding-left: 20px">
+				UTC Time
+				<br />
+				@DateTime.UtcNow.ToString() @(Html.UtcTimeZone().ToShortName())
+				<br />
+				@Html.UtcTimeZone().DisplayName
+			</li>
+		</ul>
+	</li>
+</ul>

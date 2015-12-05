@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GStoreWeb.BundleConfig" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.FilterConfig" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.PageLogger" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.RouteConfig" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Startup" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAgIAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.ApplicationOAuthProvider" Collapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACAAAAAAAAAAAAAEAAEIAAAAAAAAAAAgA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.WebApiConfig" Collapsed="true">
+    <Position X="43.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.MvcApplication" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAgAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.BlogAdmin.BlogAdminAreaRegistration" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\BlogAdmin\BlogAdminAreaRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.BlogAdmin.Controllers.AreaBaseController.BlogAdminAreaBaseController">
+    <Position X="16.5" Y="25.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Areas\BlogAdmin\Controllers\AreaBaseController\BlogAdminAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.BlogAdmin.Controllers.BlogAdminController">
+    <Position X="15.25" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAAAAAAAAAAAAEAQEEiAAEAAAAABAA=</HashCode>
+      <FileName>Areas\BlogAdmin\Controllers\BlogAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.BlogAdmin.Controllers.GStoreController">
+    <Position X="18" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Areas\BlogAdmin\Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.CatalogAdminAreaRegistration" Collapsed="true">
+    <Position X="43.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\CatalogAdminAreaRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.AreaBaseController.CatalogAdminAreaBaseController">
+    <Position X="6" Y="25.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\AreaBaseController\CatalogAdminAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.BundleAdminController">
+    <Position X="3.5" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAAAAAAAAAIAEABEAGAAAAAAAAEAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\BundleAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.CatalogAdminController">
+    <Position X="6.25" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\CatalogAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.CategoryAdminController">
+    <Position X="9" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIABAACAAAAAAATAIAEABEACQAAAAAAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\CategoryAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.GStoreController">
+    <Position X="11.75" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.CatalogAdmin.Controllers.ProductAdminController">
+    <Position X="0.75" Y="28.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAAAAAAAAAIAEABEADAAAAAAAAEAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\Controllers\ProductAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.Controllers.AreaBaseController.OrderAdminAreaBaseController">
+    <Position X="4.5" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\Controllers\AreaBaseController\OrderAdminAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.Controllers.DiscountAdminController">
+    <Position X="0.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\Controllers\DiscountAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.Controllers.GiftCardAdminController">
+    <Position X="3.25" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\Controllers\GiftCardAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.Controllers.GStoreController">
+    <Position X="6" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.Controllers.OrderAdminController">
+    <Position X="8.75" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\Controllers\OrderAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.OrderAdmin.OrderAdminAreaRegistration" Collapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\OrderAdminAreaRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.AreaBaseController.StoreAdminAreaBaseController">
+    <Position X="14.5" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\AreaBaseController\StoreAdminAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.ClientConfigAdminController">
+    <Position X="24.5" Y="21.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAiACAAIAAAAIQAAAIUAAAgBgAAAAAAAAAFAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\ClientConfigAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.ClientRoleAdminController">
+    <Position X="1.5" Y="21.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAKAAAAKAAAAAAAAAAAAAEAgAAABAAAAIAEABQAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\ClientRoleAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.GStoreController">
+    <Position X="4.5" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.NavBarItemAdminController">
+    <Position X="7.25" Y="21.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAAAAAAAAAQEAAACDAAAAABEAAQBAgAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\NavBarItemAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.PageAdminController">
+    <Position X="10.5" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAADAAAAAAAAAAAEABEACAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\PageAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.ReportsAdminController">
+    <Position X="13.25" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAEAAIAAAAgAAAAAAAAAAABAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\ReportsAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.StoreAdminController">
+    <Position X="16" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\StoreAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.UserProfileAdminController">
+    <Position X="18.75" Y="21.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACIAQAAAAAQAIQAAAAQAAAAAAAAABgAgAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\UserProfileAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.ValueListAdminController">
+    <Position X="21.75" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAAAAAAABAAAEABEACAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\ValueListAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.Controllers.WebFormAdminController">
+    <Position X="28" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQBAACAAAAAAAAAAAEABEACAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\Controllers\WebFormAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.StoreAdmin.StoreAdminAreaRegistration" Collapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\StoreAdminAreaRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.AreaBaseController.SystemAdminAreaBaseController">
+    <Position X="15.5" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\AreaBaseController\SystemAdminAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.BindingsSysAdminController">
+    <Position X="7.75" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAADAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\BindingsSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.ClientSysAdminController">
+    <Position X="13.75" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAQAAAFAADAAAAAAAAAAAEABEACAAEAAAAgAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\ClientSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.GStoreController">
+    <Position X="17.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAAAACAAAAAAAAgAEAAgAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.PageTemplateSysAdminController">
+    <Position X="20" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgABAAJAADAAAAAAAIAAAEAAEoCAAEAAAAAACA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\PageTemplateSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.StoreFrontSysAdminController">
+    <Position X="23.25" Y="14.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAgACAAQAAAFAADAAAAAAAAAAAEABEACAAEAAAAgAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\StoreFrontSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.SystemAdminController">
+    <Position X="26.75" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAABAAAACBAAAAAAIAgAEAAAAEGAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\SystemAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.ThemeSysAdminController">
+    <Position X="30" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAADAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\ThemeSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.UserProfileSysAdminController">
+    <Position X="1.5" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAADAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\UserProfileSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.ValueListSysAdminController">
+    <Position X="4.75" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAADAEAAEAIAEDAEAAEACAAEAAAAAAAQ=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\ValueListSysAdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.Controllers.WebFormSysAdminController">
+    <Position X="10.75" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAABAADAAAQAABAAACFAAEACAAEAAACAIQA=</HashCode>
+      <FileName>Areas\SystemAdmin\Controllers\WebFormSysAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Areas.SystemAdmin.SystemAdminAreaRegistration" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\SystemAdminAreaRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.AccountController">
+    <Position X="13" Y="2.75" Width="2.5" />
+    <NestedTypes>
+      <Class Name="GStoreWeb.Controllers.AccountController.ChallengeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgABAChAAAAEAAAAQFgUgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.BlogController">
+    <Position X="18.75" Y="2.75" Width="2.75" />
+    <NestedTypes>
+      <Class Name="GStoreWeb.Controllers.BlogController.LoginRequiredException" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\BlogController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEoAAgAAAAAAAAQAAAQQAAAAAAAAAAACEAAAAAAAA=</HashCode>
+      <FileName>Controllers\BlogController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.CartController">
+    <Position X="22.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CIJAAEAAAEAAAgAAAAAAREAAmAIAAIAAAIUAgAAAAAA=</HashCode>
+      <FileName>Controllers\CartController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.CatalogController">
+    <Position X="29.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAARAIAAABAIAA4BAAAAECAgAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CatalogController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.ChatController">
+    <Position X="35" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAACAAAAgAAAAAQCAAAEAAAAAAAAMAAQAAAAA=</HashCode>
+      <FileName>Controllers\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.CheckoutController">
+    <Position X="1.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAAAAgAQIQABEAAAAAACAgAEgAAAAACA=</HashCode>
+      <FileName>Controllers\CheckoutController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.GStoreController">
+    <Position X="5.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Controllers\GStoreController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.HomeController">
+    <Position X="7.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAQAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.NotificationsController">
+    <Position X="10.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQCAAAAAQAAAAAEAAEAOAEEAAAAAAAA=</HashCode>
+      <FileName>Controllers\NotificationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.OrderStatusController">
+    <Position X="16.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrderStatusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.PageController">
+    <Position X="17.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.ProfileController">
+    <Position X="25.75" Y="2.75" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="GStoreWeb.Controllers.ProfileController.ProfileMessageId" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\ProfileController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgABACAQgAggAAAAEUBQAEAIAkAIIKBAEEUgAAkAAA=</HashCode>
+      <FileName>Controllers\ProfileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.StoreFrontFileController">
+    <Position X="32.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAwAAEASAAAAAAAAJAABAAABAAAAAA=</HashCode>
+      <FileName>Controllers\StoreFrontFileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.AreaBaseController.RootAreaBaseController">
+    <Position X="18.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Controllers\AreaBaseController\RootAreaBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Controllers.AreaBaseController.RootAreaPageBaseController">
+    <Position X="17.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Controllers\AreaBaseController\RootAreaPageBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Hubs.ChatHub" Collapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="GStoreWeb.Hubs.ChatHub.ChatUserInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Hubs\ChatHub.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAIAAAAWoAAAAABABIAABEAAIAAQAAAAAAEAA=</HashCode>
+      <FileName>Hubs\ChatHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Hubs.NotifyHub" Collapsed="true">
+    <Position X="43.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAIAAAAAAIIAAAAAAAAAgABIAAICAQAAAAAAAAA=</HashCode>
+      <FileName>Hubs\NotifyHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreWeb.Properties.Settings" Collapsed="true">
+    <Position X="43.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GStoreWeb.Hubs.iChatHub" Collapsed="true">
+    <Position X="38" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAAAAAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Hubs\ChatHub.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

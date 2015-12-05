@@ -1,0 +1,1904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GStoreData.AppHtmlHelpers.BlogHtmlHelper" Collapsed="true">
+    <Position X="176.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\BlogHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.CatalogHtmlHelper" Collapsed="true">
+    <Position X="164.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkAgBAAAAAAAAAAYAAAEAIAAwAgIAAAACAAAAAEAACI=</HashCode>
+      <FileName>AppHtmlHelpers\CatalogHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.EnumHelper" Collapsed="true">
+    <Position X="164.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAhAEAAAAAAAAAAIAAAAAEAAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.GaEvent" Collapsed="true">
+    <Position X="180" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>AppHtmlHelpers\GaEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.GStoreHtmlHelper" Collapsed="true">
+    <Position X="174.75" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="GStoreData.AppHtmlHelpers.GStoreHtmlHelper.PageSectionHelperResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppHtmlHelpers\GStoreHtmlHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QotS0UJwRGtC+gwS0GjwTmhcQipJKh6R+nxTEJ10iFo=</HashCode>
+      <FileName>AppHtmlHelpers\GStoreHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.MvcHtmlHelper" Collapsed="true">
+    <Position X="164.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAESAQIQi0ChAgAJAJxEQmAZQJgAizQZAAsTB0FBJAU=</HashCode>
+      <FileName>AppHtmlHelpers\MvcHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.StoreAdminHtmlHelper" Collapsed="true">
+    <Position X="162.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAAAiAKCIAAAOEAAAAAwAAAAAAACAACEQAEQAA=</HashCode>
+      <FileName>AppHtmlHelpers\StoreAdminHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.UserMessage" Collapsed="true">
+    <Position X="173" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAEAEAAAAAABAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\UserMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.AddUserMessageExtension" Collapsed="true">
+    <Position X="164.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\UserMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.AppHtmlHelpers.PageVariableEditViewModel" Collapsed="true">
+    <Position X="166" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAAAAACAAAAAAAEUAAAEACAAAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>ViewModels\PageVariableEditViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.BlogAdmin.ControllerBase.BlogAdminBaseController">
+    <Position X="19.5" Y="64.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Areas\BlogAdmin\ControllerBase\BlogAdminBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.BlogAdmin.ViewModels.BlogAdminViewModel" Collapsed="true">
+    <Position X="173" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAEBAAAAAIAgAAACgIAAEQAAAAAAEAgAAAIgAw=</HashCode>
+      <FileName>Areas\BlogAdmin\ViewModels\BlogAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ControllerBase.CatalogAdminBaseController">
+    <Position X="1.5" Y="64.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAwAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\ControllerBase\CatalogAdminBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.CatalogAdminViewModel" Collapsed="true">
+    <Position X="181.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAEAAAAAAAAgBEAiAIAAAQIgAAAAIAABAECIAw=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\CatalogAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.CategoryEditAdminViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="167.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QkNJEABICQCBARAVwUEEUASaCIIRJIIiCEASBIBgGSU=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\CategoryEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.DigitalDownloadFileError" Collapsed="true">
+    <Position X="180" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\DigitalDownloadFileError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.ProductBundleEditAdminViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="173" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAdBUMDICQOhABAVgMEACASCCIRLpAAgAAESAABAGAU=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\ProductBundleEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.ProductBundleItemEditAdminViewModel" Collapsed="true">
+    <Position X="174.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEBQAAAAAAAAAAAAEEAAAAAIoABAAAABAAAgAABAAA=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\ProductBundleItemEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.CatalogAdmin.ViewModels.ProductEditAdminViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="176.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0IcDEODICQOhCBAQgMEACASCCIR7JAAiAAESAABBGAc=</HashCode>
+      <FileName>Areas\CatalogAdmin\ViewModels\ProductEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Areas.OrderAdmin.ControllerBase.OrderAdminBaseController">
+    <Position X="9" Y="64.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Areas\OrderAdmin\ControllerBase\OrderAdminBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.OrderAdmin.ViewModels.OrderAdminViewModel" Collapsed="true">
+    <Position X="176.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAAAAAAAAEAAAIAAAQAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Areas\OrderAdmin\ViewModels\OrderAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ControllerBase.StoreAdminBaseController">
+    <Position X="12.75" Y="64.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ControllerBase\StoreAdminBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.ClientConfigAdminViewModel">
+    <Position X="8.5" Y="21" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABSECCAEAAAgAAEAQQgAAAIAAAgEAAQCAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\ClientConfigAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.ClientConfigManagerAdminViewModel">
+    <Position X="12.5" Y="21" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\ClientConfigManagerAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.NavBarItemEditAdminViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="166" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAMDMAQYDwCRABAAgUEAEASICIABIgAkAABwAQQAEEU=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\NavBarItemEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.NavBarItemManagerAdminViewModel">
+    <Position X="17" Y="21" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAE=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\NavBarItemManagerAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.PageManagerAdminViewModel">
+    <Position X="20.5" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAgAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\PageManagerAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.StoreAdminViewModel">
+    <Position X="13" Y="17.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAAAAAAAAEAAAIAAAQAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\StoreAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.StoreFrontConfigAdminViewModel">
+    <Position X="23.75" Y="21" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>Zl8pUcZoAzvT2BEEBG2qGJQwKNGrjHVaCAVveGBdNEw=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\StoreFrontConfigAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.ValueListEditAdminViewModel" Collapsed="true">
+    <Position X="178.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEBEABEAQAhAhAQgEFAAASAQIABAAAgAAAQAAAAEA0=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\ValueListEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.ValueListItemEditAdminViewModel" Collapsed="true">
+    <Position X="180" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUBAABIQAAhAhAYAEFAAAQAAAABAAAgAAESAQQAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\ValueListItemEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.ValueListManagerAdminViewModel">
+    <Position X="1.5" Y="21" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\ValueListManagerAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.WebFormEditAdminViewModel" Collapsed="true">
+    <Position X="164.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBEABEgQAhBFAxkEFAgASAAIBRKIAgAAIIAARgEB0=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\WebFormEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.WebFormFieldEditAdminViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="166" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAEJMQAKhAhAQAEVEAAQwAAARAIBEAAEQAKAAAAA=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\WebFormFieldEditAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Areas.StoreAdmin.ViewModels.WebFormManagerAdminViewModel">
+    <Position X="5" Y="21" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Areas\StoreAdmin\ViewModels\WebFormManagerAdminViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.SystemAdmin.ControllerBase.SystemAdminBaseController">
+    <Position X="5.25" Y="64.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QCQiAgEAABAEgAAAnAAJQwBCAUAIAUoANCAQwcZACAA=</HashCode>
+      <FileName>Areas\SystemAdmin\ControllerBase\SystemAdminBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.SystemAdmin.SystemAdminActivationExtensions" Collapsed="true">
+    <Position X="167.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAACCAAAEAEgAAQABgAAAAEABAAAGAAAAAAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Extensions\SystemAdminActivationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Areas.SystemAdmin.SystemAdminHtmlHelper" Collapsed="true">
+    <Position X="169.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgEAACAAAAAACAAAAAAAAAAAAAgAAgRQAQIEAAA=</HashCode>
+      <FileName>Areas\SystemAdmin\Extensions\SystemAdminHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ControllerBase.BaseApiController" Collapsed="true">
+    <Position X="169.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControllerBase\BaseApiController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ControllerBase.BaseController">
+    <Position X="10.5" Y="49.5" Width="2.75" />
+    <NestedTypes>
+      <Class Name="GStoreData.ControllerBase.BaseController.HttpStatusCodeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ControllerBase\BaseController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>WwoRIAAoAMASAQBCABCwXHL4CgEjAECAUABEgwBUAkg=</HashCode>
+      <FileName>ControllerBase\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ControllerBase.PageBaseController">
+    <Position X="16.5" Y="64.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQABAgBAAAAAQQAAAAAIIAACBAAAAIAgBCA=</HashCode>
+      <FileName>ControllerBase\PageBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.EntityFrameworkCodeFirstProvider.GenericGStoreEFEntity&lt;TEntity&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="181.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZEAAAAAAAABBgAIAAIJAGAACEJAEAAAIAAAgIAAAA=</HashCode>
+      <FileName>EntityFrameworkCodeFirstProvider\GenericGStoreEFEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.EntityFrameworkCodeFirstProvider.GStoreEFDbContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="169.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kJNKgtIHyG90IYgzpbBRmDAkOkxkAAJEJ2oLhBEFKC4=</HashCode>
+      <FileName>EntityFrameworkCodeFirstProvider\GStoreEFDbContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.EntityFrameworkCodeFirstProvider.GStoreEFDbContextInitializerDropCreate" Collapsed="true">
+    <Position X="171.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityFrameworkCodeFirstProvider\GStoreEFDbContextInitializers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.EntityFrameworkCodeFirstProvider.GStoreDbContextInitializerMigrateLatest" Collapsed="true">
+    <Position X="166" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityFrameworkCodeFirstProvider\GStoreEFDbContextInitializers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.EntityFrameworkCodeFirstProvider.GStoreDbContextInitializerCreateIfNotExists" Collapsed="true">
+    <Position X="164.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityFrameworkCodeFirstProvider\GStoreEFDbContextInitializers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.DatabaseErrorException" Collapsed="true">
+    <Position X="178.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.DynamicPageInactiveException">
+    <Position X="0.75" Y="8.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.DynamicPageNotFoundException">
+    <Position X="0.5" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.WebFormInactiveException">
+    <Position X="0.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.WebFormNotFoundException">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.NoMatchingBindingException" Collapsed="true">
+    <Position X="169.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.StoreFrontInactiveException" Collapsed="true">
+    <Position X="166" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.HttpFileNotFoundException">
+    <Position X="0.75" Y="15.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.HttpBadRequestException">
+    <Position X="3.75" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.HttpForbiddenException">
+    <Position X="6.5" Y="15.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.HttpExceptionBase">
+    <Position X="3.75" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.PayPalExceptionOAuthFailed">
+    <Position X="12.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.PayPalExceptionCreatePaymentFailed">
+    <Position X="15.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.PayPalExceptionExecutePaymentFailed">
+    <Position X="19.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.PayPalExceptionBase">
+    <Position X="16" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.PaymentExceptionBase">
+    <Position X="16" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\AppDefinedExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.GStoreErrorInfo" Collapsed="true">
+    <Position X="173" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAEAAgAAAAACAABAQACAAA=</HashCode>
+      <FileName>Exceptions\ExceptionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Exceptions.ExceptionHandler" Collapsed="true">
+    <Position X="167.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBQCAAAAAAAAAAIIBAAAADAAAAICFQICQAAECJEAAQA=</HashCode>
+      <FileName>Exceptions\ExceptionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.BaseClassExtensions" Collapsed="true">
+    <Position X="171.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAQAAAgAAIQAEAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\BaseClassExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.BlogExtensions" Collapsed="true">
+    <Position X="174.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgACAAABAAAACAIAAAABIAAAAAAAggAABAAAAAAA=</HashCode>
+      <FileName>Extensions\BlogExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.CartExtensions" Collapsed="true">
+    <Position X="180" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pIVAGCjKBQACAKWABMEAoFGwMAA6QCMpAIAAIAAAQKA=</HashCode>
+      <FileName>Extensions\CartExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.CatalogExtensions" Collapsed="true">
+    <Position X="162.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YsCC2gi8gEEEYYQHETiACsSJShAijkESFUSAACACEkU=</HashCode>
+      <FileName>Extensions\CatalogExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ClientExtensions" Collapsed="true">
+    <Position X="173" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAQAAAAAEAAAAAAgAEAgAAIAAIAAIAAAAAABAgAAIg=</HashCode>
+      <FileName>Extensions\ClientExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.EventLogExtensions" Collapsed="true">
+    <Position X="166" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FgASQEAQoACDAEAAREAgA8YACgABEALAoAAAAJTSGAY=</HashCode>
+      <FileName>Extensions\EventLogExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.FormProcessorExtensions" Collapsed="true">
+    <Position X="178.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQgAACAAwkAgCIAAAAgAIAAQAEQABIIAAKEADCAQgEA=</HashCode>
+      <FileName>Extensions\FormProcessorExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.GStoreDBExtensions" Collapsed="true">
+    <Position X="167.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgBAAQAAAAACAAAAAAAACgAAgIFIBAAA=</HashCode>
+      <FileName>Extensions\GStoreDBExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.NewStoreFrontExtensions" Collapsed="true">
+    <Position X="167.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\NewStoreFrontExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.NotificationExtensions" Collapsed="true">
+    <Position X="173" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAgAIAEAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Extensions\NotificationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.OrderExtensions" Collapsed="true">
+    <Position X="178.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEIABggIACCACgAAAAAAAAAACAAABAEBABAACIAAIA=</HashCode>
+      <FileName>Extensions\OrderExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.PageExtensions" Collapsed="true">
+    <Position X="162.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\PageExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.SeedDataExtensions" Collapsed="true">
+    <Position X="171.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgACQEEQIQAAAJAHAKEAECIAAgABAAgCAABBAAAAxAA=</HashCode>
+      <FileName>Extensions\SeedDataExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.SortExtensions" Collapsed="true">
+    <Position X="181.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\SortExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.StoreFrontExtensions" Collapsed="true">
+    <Position X="164.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiNoEogAD0gYJZcDBZauxABLyCEQAMIBYSAKEBZCgFg=</HashCode>
+      <FileName>Extensions\StoreFrontExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.TreeNode&lt;T&gt;" Collapsed="true">
+    <Position X="171.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>Extensions\TreeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.LinqExtensionMethods" Collapsed="true">
+    <Position X="178.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Extensions\TreeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.UserProfileExtensions" Collapsed="true">
+    <Position X="176.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAABAAAABBAEICAAIAAAAEAAAAAQACAAAAIA=</HashCode>
+      <FileName>Extensions\UserProfileExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.WhereIsActiveExtensions" Collapsed="true">
+    <Position X="167.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAQAAAAAAAABACAFAAAAAAAgAgAAAAA=</HashCode>
+      <FileName>Extensions\WhereIsActiveExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.RepositoryFactory" Collapsed="true">
+    <Position X="167.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAACEAAAA=</HashCode>
+      <FileName>Repository\RepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Settings" Collapsed="true">
+    <Position X="178.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJAABJCAAAAsQBAACZOAYCEZQAoQLIgAgHRSEiYCAEA=</HashCode>
+      <FileName>Settings\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetEFIdentityExtensions" Collapsed="true">
+    <Position X="169.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAIBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\AspNetEFIdentityExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AuthorizeGStoreAction" Collapsed="true">
+    <Position X="166" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIAgAAAAAAAEAAAAAIAAABAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Identity\AuthorizeGStoreAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AuthorizeSystemAdmin" Collapsed="true">
+    <Position X="167.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Identity\AuthorizeSystemAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AuthorizationExtensions" Collapsed="true">
+    <Position X="164.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAEAAAAAAAAAAAAAAAAAAACAAAAAQAAAA=</HashCode>
+      <FileName>Identity\GStoreAuthorizationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="162.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Identity.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="180" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityUserManager" Collapsed="true">
+    <Position X="181.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityRoleManager" Collapsed="true">
+    <Position X="174.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.ApplicationSignInManager" Collapsed="true">
+    <Position X="167.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityUser" Collapsed="true">
+    <Position X="176.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityRole" Collapsed="true">
+    <Position X="173" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityUserLogin" Collapsed="true">
+    <Position X="180" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityUserRole" Collapsed="true">
+    <Position X="162.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityUserClaim" Collapsed="true">
+    <Position X="178.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Identity.AspNetIdentityContext" Collapsed="true">
+    <Position X="171.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAACAAAQIAAAAIDAAAAAEAEkAAgAQACEAAAAA=</HashCode>
+      <FileName>Identity\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ListProvider.GenericGStoreListSourceRepository&lt;TEntity&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="162.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZEAAAEAAAAABAAIAAABACAACEBAEAAQIAAAgIAAAA=</HashCode>
+      <FileName>ListProvider\GenericGStoreListSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.ListProvider.ListContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="180" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBNIAFIHwG1wAQAxpLAAiDAEKkRAAAIAA2ALBAAAKA4=</HashCode>
+      <FileName>ListProvider\ListContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Initial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="176.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201503230617296_Initial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="178.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201503240837402_Release4.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release5" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="180" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201503271212357_Release5.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release6" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="181.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201503281132464_Release6.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release7" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="162.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201503310056263_Release7.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="164.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504032308415_Release8.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release9" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="166" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504070353162_Release9.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release10" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="162.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504151234269_Release10.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release11" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="164.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504160905378_Release11.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release12" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="166" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504161906336_Release12.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release13" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="167.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504212129148_Release13.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release14" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="169.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504212229446_Release14.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release15" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="171.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504220052252_Release15.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release16" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="173" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504230118353_Release16.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release17" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="174.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201504231934030_Release17.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Release18" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="176.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201505081627388_Release18.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.Migrations.Configuration" Collapsed="true">
+    <Position X="174.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.AuditFieldsAllRequired">
+    <Position X="49.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQAAAAAAAAAAAACAAAAAAAAgAAAAAAAAEAE=</HashCode>
+      <FileName>Models\BaseClasses\AuditFieldsAllRequired.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.AuditFieldsUserProfileOptional">
+    <Position X="126.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQAAAAAAAAAAAACAAAAAAAAgAAAAAAAAEAE=</HashCode>
+      <FileName>Models\BaseClasses\AuditFieldsUserProfileOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.ClientRecord">
+    <Position X="51.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\BaseClasses\ClientRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.ClientRecordUserProfileOptional">
+    <Position X="118.5" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\BaseClasses\ClientRecordUserProfileOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.EventLogBase">
+    <Position X="151.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAwgQAICAhIAAAApJAAAAAAABCQAFIRAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\EventLogBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.GStoreEntity">
+    <Position X="84" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\GStoreEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.StoreFrontDataValueRecord">
+    <Position X="11.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CgAAAEAEAAYAAAAAAEAAAAFAAAAAAAwAAAAUAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\StoreFrontDataValueRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.StoreFrontDataValueRecordUserProfileOptional">
+    <Position X="110" Y="10" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAEAEAAYAAAAAAEAAAAFAAAAAAAwAAAAUAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\StoreFrontDataValueRecordUserProfileOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.StoreFrontRecord">
+    <Position X="36.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\StoreFrontRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BaseClasses.StoreFrontRecordUserProfileOptional">
+    <Position X="118.25" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\StoreFrontRecordUserProfileOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Blog">
+    <Position X="31.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAhAIAQAABAAAYCCAAAJAAAAEAACACAAAA=</HashCode>
+      <FileName>Models\Blog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BlogEntry">
+    <Position X="39.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>YAEIAAAAAIAhAAAQAAAAAAQCCEQAJAAAKABAAABAAAA=</HashCode>
+      <FileName>Models\BlogEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Cart">
+    <Position X="120.5" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAFAAMOAgGV0QIgwlABAIAUIBAwAaFAAAmBAjAAKCkA=</HashCode>
+      <FileName>Models\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.CartBundle">
+    <Position X="124" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAgAAAAAAAAAAAAAAAAAAAAAAAAAACgAAACQA=</HashCode>
+      <FileName>Models\CartBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.CartItem">
+    <Position X="131" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>MKECAEgAAAAAACAAAAAAAAgAMgAAAAAABAAAgAAACQA=</HashCode>
+      <FileName>Models\CartItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.CartPaymentInfo">
+    <Position X="134" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAEBAAAAIAAGAABQAACgQ=</HashCode>
+      <FileName>Models\CartPaymentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Client">
+    <Position X="8" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAWUCAAEAAQgAAEASQgCAAIAAAgEAAQCAAABAg=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ClientRole">
+    <Position X="75.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgAAgAAAAgAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Models\ClientRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ClientRoleAction">
+    <Position X="80.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgAAAAAAAAAEAAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Models\ClientRoleAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ClientUserRole">
+    <Position X="85" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAQAgAAAAAAhAAAAAAAAAQgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClientUserRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.DeliveryInfoDigital">
+    <Position X="137" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAIAAAAAAAAAAAAAAAAIAAAAABgAACAQ=</HashCode>
+      <FileName>Models\DeliveryInfoDigital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.DeliveryInfoShipping">
+    <Position X="97" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAIAAAAAIAIIAAAAAAAAMAAgAIAAQAABgAICAQ=</HashCode>
+      <FileName>Models\DeliveryInfoShipping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Discount">
+    <Position X="14.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECgAAAAAAIAAABAAAgQAAAAAgABAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.SystemEvent">
+    <Position X="143" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAEAgAAAAAAAAIAAAAAAABAAAAAAAAAQA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.SecurityEvent">
+    <Position X="145.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAgAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.PageViewEvent">
+    <Position X="148" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.UserActionEvent">
+    <Position X="150.25" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAICEMABAAEAAAAAgAACAgQAAAKAAAAAAgAACAQ=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.FileNotFoundLog">
+    <Position X="153" Y="12.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.BadRequest">
+    <Position X="155.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.SmsSent">
+    <Position X="157.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABJAAAAAAAIAAAAAAAAAgAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.EmailSent">
+    <Position X="160" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABAAAAAAAIAJAAAAAAAgAAABAAAEIAgAAIAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.GiftCard">
+    <Position X="58.5" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAggQAAAAAAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\GiftCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.NavBarItem">
+    <Position X="61.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAECIAQQAwAQAAAAAUAAEAQACAAAIgAEAABwAQAAEAQ=</HashCode>
+      <FileName>Models\NavBarItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Notification">
+    <Position X="140" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>FgEAAACAAAAACAAAAIAAAAAoAAAIAACgABAAIAAAAAI=</HashCode>
+      <FileName>Models\Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.NotificationLink">
+    <Position X="100.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAASAAAAAAAAAAAAEAAAAQACACAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotificationLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Order">
+    <Position X="106.5" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>kABACIeAKGV0QIgBlABAKRRKBAwASFEAArBAjAAKAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.OrderBundle">
+    <Position X="114.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEAQAAAAAEAAAABAAAAAAgAAAAAAAAAAAACgAAAAQA=</HashCode>
+      <FileName>Models\OrderBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.OrderItem">
+    <Position X="117.25" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>MKUKAAgA4BAAACAhAAAAABAgMgQIAUAABAAIgAAAAAI=</HashCode>
+      <FileName>Models\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Page">
+    <Position X="26" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAMCAAEAAAAjABAQAAAAIIQADQARIIAACUAJAABQEEA=</HashCode>
+      <FileName>Models\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.PageSection">
+    <Position X="34.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAECAAAAAAAQAAACAAQAAAAASQAAEAAgAAAAAIAAQAA=</HashCode>
+      <FileName>Models\PageSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.PageTemplate">
+    <Position X="64" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAAgAAAgAAAAAAQAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\PageTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.PageTemplateSection">
+    <Position X="69" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAgBAAAAAQBAIQAIAQAAAAACQIAAAgAAAA=</HashCode>
+      <FileName>Models\PageTemplateSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Payment">
+    <Position X="127" Y="10" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EQEEEEQIAFMgAKFQqqWAAUABFJEgiRDEBAFABQBASpA=</HashCode>
+      <FileName>Models\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Product">
+    <Position X="46.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>8IUAAOiIgAMhCAAQAKAACAQCOAR6JBACAAESAABBCAI=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductBundle">
+    <Position X="49.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAVAAMCIAAMhAAARCIAACAQCKARKpAAAAEESAABACAA=</HashCode>
+      <FileName>Models\ProductBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductBundleItem">
+    <Position X="52.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>MIECQAgAgAAAAAAAAAAAAAAAEgAAAAAABAACgAABAAA=</HashCode>
+      <FileName>Models\ProductBundleItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductCategory">
+    <Position X="55.25" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QkFIAABBAAABARAVQSAE0AQSCAIQpNIiAEASBIRgaSQ=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductCategoryAltProduct">
+    <Position X="16.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAACAAAAAAAAAAAAAAAAAACAAAACAA=</HashCode>
+      <FileName>Models\ProductCategoryAltProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductCategoryAltProductBundle">
+    <Position X="19.75" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAACAA=</HashCode>
+      <FileName>Models\ProductCategoryAltProductBundle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductCategoryImage">
+    <Position X="23.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAEAA=</HashCode>
+      <FileName>Models\ProductCategoryImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ProductImage">
+    <Position X="29" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.StoreBinding">
+    <Position X="37" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAEAAIAAAAAAAAAAAAAAAAAACCBIBAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\StoreBinding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.StoreFront">
+    <Position X="66.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAMAEAAAAAAgAAAgABAAigAAAERAAAAAAgAIAAAAAAQ=</HashCode>
+      <FileName>Models\StoreFront.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.StoreFrontConfiguration">
+    <Position X="42.75" Y="10" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>Zl8rQeZoaztT2CEEZGz/GhazKNmrjnVaKC1veWBdtMw=</HashCode>
+      <FileName>Models\StoreFrontConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.Theme">
+    <Position X="71.75" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAABAAhAAAAAAAgAAQACAAAAIAAAIAAAAAIAAA=</HashCode>
+      <FileName>Models\Theme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.UserProfile">
+    <Position X="93.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QCMSEiAAgCBgQJAIpEIAAAoQQAIICAEIAQBABYi4IAQ=</HashCode>
+      <FileName>Models\UserProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ValueList">
+    <Position X="78" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAgAAABAAAAAAQAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\ValueList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.ValueListItem">
+    <Position X="82.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAgAgAIAAAAAAQAAAAAAAAgAAAQAQQAAAA=</HashCode>
+      <FileName>Models\ValueListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.WebForm">
+    <Position X="87.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgBEAhEAAAgAQAAABACIAAAAIIAAAgEAA=</HashCode>
+      <FileName>Models\WebForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.WebFormField">
+    <Position X="90.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEIEAAIgAgABAAQAAAQwAAAQAIBEAAAQAKAAAAA=</HashCode>
+      <FileName>Models\WebFormField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.WebFormFieldResponse">
+    <Position X="110.5" Y="15" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAACAAIAAAAAEAAAAAAAIEAAAAAAABQAQ=</HashCode>
+      <FileName>Models\WebFormFieldResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Models.WebFormResponse">
+    <Position X="103.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAQAAABAIAAAAAAAAAQAIIAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\WebFormResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.PayPal.PayPalPaymentClient" Collapsed="true">
+    <Position X="171.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAQAACAAAgAAAAAAAAAAAgAAEAAAAAQAAAAAAAA=</HashCode>
+      <FileName>PayPal\PayPalPaymentClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.Properties.Settings" Collapsed="true">
+    <Position X="176.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJAABIAAAAAsQBAACZOAYCEZQAoRLIgAgHRSEiYCAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ExternalLoginConfirmationViewModel" Collapsed="true">
+    <Position X="169.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ExternalLoginListViewModel" Collapsed="true">
+    <Position X="171.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.SendCodeViewModel" Collapsed="true">
+    <Position X="173" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAIAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.VerifyCodeViewModel" Collapsed="true">
+    <Position X="181.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAAgAIAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ForgotViewModel" Collapsed="true">
+    <Position X="176.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.LoginViewModel" Collapsed="true">
+    <Position X="181.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.RegisterViewModel" Collapsed="true">
+    <Position X="181.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAASAAAJAAAAAAAIAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ResetPasswordViewModel" Collapsed="true">
+    <Position X="169.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAIAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ForgotPasswordViewModel" Collapsed="true">
+    <Position X="174.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.AdminMenuViewModel" Collapsed="true">
+    <Position X="166" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIAAAABCAAAABAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AdminMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CartConfigViewModel" Collapsed="true">
+    <Position X="178.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhIDUKQAaABQACAAYEBVEgKDCAkCBiBAKikACUAAoIA=</HashCode>
+      <FileName>ViewModels\CartConfigViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CatalogViewModel" Collapsed="true">
+    <Position X="166" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIIAAAAAAAAAAAQAAAAEAYAgAAAEECIAIIAABAAAUA=</HashCode>
+      <FileName>ViewModels\CatalogViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutLogInOrGuestViewModel">
+    <Position X="29.5" Y="47.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutDeliveryInfoDigitalOnlyViewModel">
+    <Position X="33.75" Y="47.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutDeliveryInfoShippingViewModel">
+    <Position X="38.5" Y="47.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAIAIIAAAAAAAAMAAAAAAAAAABgAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutDeliveryMethodShippingViewModel">
+    <Position X="43" Y="47.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutPaymentInfoViewModel">
+    <Position X="47.75" Y="47.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutConfirmOrderViewModel">
+    <Position X="51.75" Y="47.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutViewModelBase">
+    <Position X="41" Y="44.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAgCAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\CheckoutViewModels.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GStoreData.ViewModels.CheckoutWebFormInfo" Collapsed="true">
+    <Position X="171.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>ViewModels\CheckoutWebFormInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.DigitalDownloadFileInfo" Collapsed="true">
+    <Position X="181.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\DigitalDownloadFileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ProfileViewModel" Collapsed="true">
+    <Position X="180" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAQAAAAAQAAAAAAAQQCAAEAEA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ProfileLoginsViewModel" Collapsed="true">
+    <Position X="178.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.FactorViewModel" Collapsed="true">
+    <Position X="173" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.SetPasswordViewModel" Collapsed="true">
+    <Position X="174.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ChangePasswordViewModel" Collapsed="true">
+    <Position X="169.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.AddPhoneNumberViewModel" Collapsed="true">
+    <Position X="162.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.VerifyPhoneNumberViewModel" Collapsed="true">
+    <Position X="162.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.UserProfileAddressViewModel" Collapsed="true">
+    <Position X="174.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAABAAQAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.ConfigureTwoFactorViewModel" Collapsed="true">
+    <Position X="176.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.MenuViewModel" Collapsed="true">
+    <Position X="162.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAkAAAAAEACAAAAAAAAYAQAQAAAAABAAAAAAAAAE=</HashCode>
+      <FileName>ViewModels\MenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.NotificationCreateViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="171.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQEAAAAAAICAEAAAIYAAAAQIAAgAAAAAgABAIACAAAA=</HashCode>
+      <FileName>ViewModels\NotificationCreateViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.ViewModels.NotificationSettingsViewModel" Collapsed="true">
+    <Position X="174.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAACAAAAAAAAIAAAAAAAQAAAEAAAAAAACAIAA=</HashCode>
+      <FileName>ViewModels\NotificationSettingsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.OrdersViewModel" Collapsed="true">
+    <Position X="180" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\OrderStatusViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.PageEditViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="181.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAMDkIFIAACjABEQAEFAJISCDcgBIIAgSBQRAoBQEEE=</HashCode>
+      <FileName>ViewModels\PageEditViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GStoreData.ViewModels.PageSectionEditViewModel" Collapsed="true">
+    <Position X="164.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEDEAAAQAAACAAKAEUAAAAAISAAEAAgAAEAAIAAQAA=</HashCode>
+      <FileName>ViewModels\PageSectionEditViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.PageViewModel" Collapsed="true">
+    <Position X="167.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAASAAAAAAAAAQAAEABQAAAACAAAAAAAgAA=</HashCode>
+      <FileName>ViewModels\PageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GStoreData.ViewModels.PayPalInfo" Collapsed="true">
+    <Position X="169.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PayPalInfoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GStoreData.AppHtmlHelpers.EnumInfo" Collapsed="true">
+    <Position X="162.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAIAAAAAAAAAAABAAAAAAAAgAgAABAIAA=</HashCode>
+      <FileName>AppHtmlHelpers\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.AppHtmlHelpers.EnumInfoValue" Collapsed="true">
+    <Position X="164.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAQAAAAAIAAEAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalOAuthTokenData" Collapsed="true">
+    <Position X="181.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAQgA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalPaymentData" Collapsed="true">
+    <Position X="166" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAAAAAAAABIBAAAAAAAAAAIAAIEAAAAAAAAggA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalPaymentExecuteData" Collapsed="true">
+    <Position X="167.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalLinkData" Collapsed="true">
+    <Position X="180" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalRedirectUrlData" Collapsed="true">
+    <Position X="169.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalPayerData" Collapsed="true">
+    <Position X="162.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalPayerInfoData" Collapsed="true">
+    <Position X="164.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAoQAgAAAAAAAAAgAAAAAgAAAAAAAAQAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalFundingInstrumentData" Collapsed="true">
+    <Position X="174.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalCreditCardData" Collapsed="true">
+    <Position X="173" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAABAAAEAQQEAAAAAEAAAIAABAAIEAAQAAAAAQgQ=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalAddressData" Collapsed="true">
+    <Position X="167.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAACAAAAAAAAABkIAAAIAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalShippingAddressData" Collapsed="true">
+    <Position X="173" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAQAAAAAAACAAAAAABAABkIAAAIAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalTransactionData" Collapsed="true">
+    <Position X="174.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAIAAQIgAAAAAAAAIAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalAmountData" Collapsed="true">
+    <Position X="169.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAQAIAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalTransactionFeeData" Collapsed="true">
+    <Position X="176.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalAmountDetailsData" Collapsed="true">
+    <Position X="171.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAQAAAAAAAAAAIAIAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalTransactionRelatedResourceData" Collapsed="true">
+    <Position X="178.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalSaleData" Collapsed="true">
+    <Position X="171.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAABAAIAAAAgACAIAIgAIUAgAAACAAAgA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalItemListData" Collapsed="true">
+    <Position X="178.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.PayPal.Models.PayPalItemData" Collapsed="true">
+    <Position X="176.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAAAAAIAAIAAAAAAAEAACAAAAAABAAAAA=</HashCode>
+      <FileName>PayPal\Models\Models.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GStoreData.ViewModels.PageVariableData" Collapsed="true">
+    <Position X="166" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\PageEditViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="GStoreData.IGstoreDb" Collapsed="true">
+    <Position X="162.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBNIAFIHwG1wAQAxoLAAiDAEKkRAAAIAA2ALBAAACA4=</HashCode>
+      <FileName>Repository\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GStoreData.IGStoreRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="164.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZEAAAAAAAAABAAIAAABACAACEBAEAAAIAAAgIAAAA=</HashCode>
+      <FileName>Repository\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GStoreData.AppHtmlHelpers.PopoverPlacementEnum" Collapsed="true">
+    <Position X="176.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>AppHtmlHelpers\MvcHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.AppHtmlHelpers.DashboardDateTimeRange" Collapsed="true">
+    <Position X="167.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAABAAMQAAAAAQABAAAAAAAAAAAAiABAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\StoreAdminHtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.AppHtmlHelpers.UserMessageType" Collapsed="true">
+    <Position X="174.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAIgAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>AppHtmlHelpers\UserMessage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Exceptions.ErrorPage" Collapsed="true">
+    <Position X="169.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAAAAAQAAAAAAAAAAACAAEABAAAAAAAAAAAIA=</HashCode>
+      <FileName>Exceptions\ExceptionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.RepositoryProviderEnum" Collapsed="true">
+    <Position X="164.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Repository\RepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Identity.GStoreAction" Collapsed="true">
+    <Position X="171.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mpQt4n4xjyOtQCAQMMMCklMgQNi+kTZACI8ExFAZE+A=</HashCode>
+      <FileName>Identity\GStoreAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.BaseClasses.GStorePaymentSourceEnum" Collapsed="true">
+    <Position X="173" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BaseClasses\GStorePaymentSourceEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.BaseClasses.GStoreValueDataType" Collapsed="true">
+    <Position X="174.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAEAABAggAAAAAAAkACAAAAARgAADQAAAgQAAAA=</HashCode>
+      <FileName>Models\BaseClasses\GStoreValueDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.ShippingDeliveryMethod" Collapsed="true">
+    <Position X="167.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\DeliveryInfoShipping.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.SystemEventLevel" Collapsed="true">
+    <Position X="169.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAQAAAAAAABAEAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.SecurityEventLevel" Collapsed="true">
+    <Position X="166" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gADAAAAAEAgCAAIACAEEAAABAgFIAJCBAITAAQUgAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.UserActionCategoryEnum" Collapsed="true">
+    <Position X="173" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAEAAAAAwBAAAQAAAAAABAAACAAgAABAAAAAAAAA=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.UserActionActionEnum" Collapsed="true">
+    <Position X="171.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYBEQCgBEABiABAAAwAYAAEnAYIgBWJAEgASAVgCCE=</HashCode>
+      <FileName>Models\EventLogs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.CategoryListTemplateEnum" Collapsed="true">
+    <Position X="164.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.ProductListTemplateEnum" Collapsed="true">
+    <Position X="162.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.ProductBundleListTemplateEnum" Collapsed="true">
+    <Position X="180" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.ProductDetailTemplateEnum" Collapsed="true">
+    <Position X="181.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.ProductBundleDetailTemplateEnum" Collapsed="true">
+    <Position X="178.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.CatalogLayoutEnum" Collapsed="true">
+    <Position X="162.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\StoreFrontConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GStoreData.Models.CountryCodeEnum" Collapsed="true">
+    <Position X="166" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>v27H//utSiOf3+oShJ/W5pKItvv9fwSAsNM9EIDA4O4=</HashCode>
+      <FileName>Models\UserProfile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

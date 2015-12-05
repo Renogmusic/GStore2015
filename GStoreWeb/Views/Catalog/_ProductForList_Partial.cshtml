@@ -1,0 +1,67 @@
+﻿@model CatalogViewModel
+@{
+	if (Model.CurrentProductOrNull == null)
+	{
+		throw new ArgumentNullException("Model.CurrentProductOrNull");
+	}
+	Product product = Model.CurrentProductOrNull;
+	StoreFrontConfiguration config = Html.CurrentStoreFrontConfig(true);
+	ProductDetailTemplateEnum detailTemplate = product.Category.ProductDetailTemplate;
+
+	string url = Url.Action("ViewProductByName", "Catalog", new { urlName = product.UrlName });
+	string imageUrl = product.ImageUrl(Request.ApplicationPath, ViewContext.RouteData);
+	decimal? unitPrice = product.UnitPrice(1);
+	decimal? listPrice = product.ListPrice(1);
+	bool showListPrice = config.CartItemListPriceColumnShow && (listPrice.HasValue && listPrice.Value > (unitPrice ?? 0M));
+	bool showImage = (imageUrl != null);
+	bool showSampleAudio = false;
+	bool newThisWeek = DateTime.UtcNow.Subtract(product.CreateDateTimeUtc).Days <= 7;
+
+	if (!string.IsNullOrEmpty(product.SampleAudioFileName))
+	{
+		showSampleAudio = true;
+	}
+
+	<div class="ProductListItemBox boxshadowjs">
+		@if (showImage)
+		{
+			<a class="ProductListImageLink" href="@(url)"><img class="ProductListImage" src="@(imageUrl)" alt="@(Html.Raw(Html.AttributeEncode(product.Name)))" title="@(Html.Raw(Html.AttributeEncode(product.Name)))" /></a>
+			<br />
+			if (showSampleAudio)
+			{
+				string audioUrl = product.SampleAudioUrl(Request.ApplicationPath, ViewContext.RouteData);
+				<div class="ProductAudioRow">
+					<span class="ProductAudio">@(Html.DisplayFor(model => audioUrl, "ProductSampleAudio"))</span>
+					<span class="ProductAudioLabel">@(product.SampleAudioCaptionOrSystemDefault(config))</span>
+				</div>
+			}
+			if (showListPrice)
+			{
+				<div class="ProductListListPriceRow"><span class="ProductListListPriceLabel">@(config.CartItemListPriceColumnLabel.OrDefault("List Price"))</span> <span class="ProductListListPrice">@(Html.DisplayFor(model => listPrice, "CurrencyOrNA"))</span></div>
+			}
+			<div class="ProductListUnitPriceRow"><span class="ProductListUnitPriceLabel">@(config.CartItemUnitPriceColumnLabel.OrDefault("Your Price"))</span> <span class="ProductListUnitPrice">@(Html.DisplayFor(model => unitPrice, "CurrencyOrCall"))</span></div>
+			<a class="ProductListTextLink" href="@(url)" title="@(Html.Raw(Html.AttributeEncode(product.Name)))"><h4>@(product.Name)</h4></a>
+		}
+		else
+		{
+			<a class="ProductListTextLinkNoImage" href="@(url)" title="@(Html.Raw(Html.AttributeEncode(product.Name)))"><h4 style="margin-top: 0">@(product.Name)</h4></a>
+			if (showSampleAudio)
+			{
+				string audioUrl = product.SampleAudioUrl(Request.ApplicationPath, ViewContext.RouteData);
+				<div class="ProductAudioRow">
+					<span class="ProductAudio">@(Html.DisplayFor(model => audioUrl, "ProductSampleAudio"))</span>
+					<span class="ProductAudioLabel">@(product.SampleAudioCaptionOrSystemDefault(config))</span>
+				</div>
+			}
+			if (showListPrice)
+			{
+				<div class="ProductListListPriceRow"><span class="ProductListListPriceLabel">@(config.CartItemListPriceColumnLabel.OrDefault("List Price"))</span> <span class="ProductListListPrice">@(Html.DisplayFor(model => listPrice, "CurrencyOrNA"))</span></div>
+			}
+			<div class="ProductListUnitPriceRow"><span class="ProductListUnitPriceLabel">@(config.CartItemUnitPriceColumnLabel.OrDefault("Your Price"))</span> <span class="ProductListUnitPrice">@(Html.DisplayFor(model => unitPrice, "CurrencyOrCall"))</span></div>
+		}
+		@if (newThisWeek)
+		{
+			<br/><img src="@(Url.GStoreLocalUrl("/Images/new.png"))" alt="New this week!" title="New This Week!" />
+		}
+	</div>
+}

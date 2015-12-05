@@ -1,0 +1,95 @@
+﻿@model DigitalDownloadFileInfo
+@{
+	bool shortStatus = (ViewData["ShortStatus"] as bool?) ?? false;
+	bool linkToEdit = (ViewData["LinkToEdit"] as bool?) ?? true;
+	string fileName = Model.DigitalDownloadFileName;
+	int productId = Model.ProductId;
+}
+@if (string.IsNullOrEmpty(fileName))
+{
+	@:(none)
+}
+else
+{
+	StoreFront storeFront = Html.CurrentStoreFront(true);
+	if (!storeFront.Authorization_IsAuthorized(Html.CurrentUserProfile(true), true, GStoreAction.Products_Manager, GStoreAction.Products_View, GStoreAction.Products_Edit, GStoreAction.Products_Create))
+	{
+		throw new ApplicationException("User does not have permission to view digital download file info. Current User Id: " + Html.CurrentUserProfile(true).UserProfileId);
+	}
+	string url = Url.Action("PreviewDigitalDownload", "ProductAdmin", new { area = "CatalogAdmin", id = productId });
+	string path = storeFront.ProductDigitalDownloadFilePath(Request.ApplicationPath, ViewContext.RouteData, Server, fileName);
+	bool statusOk = false;
+	if (path == null)
+	{
+		if (shortStatus)
+		{
+			<p class="Border3Red bold">File not found '@(fileName)'</p>
+		}
+		else
+		{
+			<h3 class="Border3Red bold">File not found '@(fileName)'</h3>
+		}
+	}
+	else if (System.IO.File.Exists(path))
+	{
+		statusOk = true;
+		FileInfo fileInfo = new System.IO.FileInfo(path);
+		<span class="Border3Green text-success">File OK. Type: @(path.FileExtension()) Size: @(fileInfo.Length.ToByteString()) updated @(fileInfo.LastWriteTimeUtc) UTC</span><br/>
+	}
+	else
+	{
+		if (shortStatus)
+		{
+			<p class="Border3Red bold">File not found '@(fileName)'</p>
+		}
+		else
+		{
+			<h3 class="Border3Red bold">File not found '@(fileName)'</h3>
+		}
+	}
+	if (statusOk && shortStatus)
+	{
+		<a class="text-success bold" href="@(url)" title="View in a new window" target="_blank">Download File '@(fileName)'</a><br />
+	}
+	if (linkToEdit)
+	{
+		<a class="text-danger bold" href="@(Url.Action("Edit", "ProductAdmin", new { area="CatalogAdmin", id = Model.ProductId, Tab="Resources" }))" title="Edit Product" target="_blank">Edit Product</a>
+	}
+	if (shortStatus)
+	{
+		//no preview for short status
+	}
+	else
+	{
+		<br/>
+		<a href="@(url)" title="Download File '@(fileName)'" target="_blank">Download File '@(fileName)'
+			<br />
+			<br />
+			@if (fileName.FileExtensionIsImage())
+			{
+				<img src="@(url)" width="80" height="80" alt="@(url)" title="@(url)" />
+				<br />
+				@:(view full size in a new window)
+			}
+			else if (fileName.FileExtensionIsAudio())
+			{
+				string audioType = "audio/mpeg";
+				<audio controls="controls" title="@(Model)" preload="metadata" onplay="@Html.GaEventScript("Product-DigitalDownload-Audio-Play", Model.ProductId.ToString(), "Product Digital Download Audio Play")">
+					@if (fileName.FileExtensionIs("wav"))
+					{
+						audioType = "audio/wav";
+					}
+					else if (fileName.FileExtensionIs("ogg"))
+					{
+						audioType = "audio/ogg";
+					}
+					<source title="Sample" src="@Html.Raw(url)" type="@(audioType)" />
+				</audio>
+			}
+			else
+			{
+				@:(view in a new window)
+			}
+		</a>
+	}
+}
